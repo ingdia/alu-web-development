@@ -1,3 +1,121 @@
 body{
-    background-color: aqua;
+    background-color: gray;
+    color: white;
+}
+header{
+    width: 1103.41px;
+    /* margin-left: 20px;
+    padding: 20px; */
+    height: 29.46px;
+    top: 35px;
+    left: 171.59px;
+    
+}
+.logo{
+   margin-left: 120px
+}
+.logo  img{
+    width: 50px;
+    height:50px;
+}
+a span{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+li a{
+   font-size: 12px; 
+}
+ul{
+    display: flex;
+    padding: 0px;
+     /* gap: 100px; */
+}
+.navlinks{
+    margin-left: 400px;
+}
+ul li{
+     list-style-type: none;    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.hero{
+    text-align: center;
+    margin-top: 50px;
+}
+.hero h1{
+    font-size: 120px; 
+    font-weight: 700;
+    line-height: 100%;
+    top: 220px;
+    left: 337px;
+
+}
+.hero p{
+    word-spacing: 30px;
+    margin-top: -40px;
+    font-weight: 700;
+    font-size: 16px;
+}
+button{
+    /* width: 162px;
+    height: 44px; */
+    padding: 15px;
+    top: 419px;
+    left: 639px;
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px 1px rgb(48, 47, 47);
+}
+.pros h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+h2 span{
+    color: #C271FF;
+    font-weight: 700;  
+}
+.pros_container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.pros_item{
+    text-align: center;
+ 
+}
+.pros_item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.pros_item h3{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+}
+.pros_item p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+
 }
