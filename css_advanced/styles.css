@@ -23,11 +23,12 @@ header{
    background-repeat: no-repeat;
 } */
 .logo{
-   margin-left: 120px
+   margin-left: 120px;
 }
 .logo  img{
     width: 50px;
     height:50px;
+    border-radius: 50%;
 }
 a span{
     text-decoration: none;
@@ -285,4 +286,43 @@ blockquote{
 .membership button{
     margin-left: 600px;
     margin-top: 50px;
+}
+.FQ_section{
+    background-color: white;
+    color: black; 
+    /* text-align: center;  */
+}
+.FQ_section h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+.FQ_row{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    gap: 250px;
+}
+footer{
+    background-color: #071629;
+    height: 249px;
+    text-align: center;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    gap: 300px;
+}
+.footer_container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
 }
