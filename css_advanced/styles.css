@@ -1,6 +1,12 @@
 body{
-    background-color: gray;
+    background-image: url(../html_advanced/images/myback.jpg);
     color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-size: 1400px 1150px;
 }
 header{
     width: 1103.41px;
@@ -11,6 +17,11 @@ header{
     left: 171.59px;
     
 }
+/* .hero_section{
+   background-image: url(../html_advanced/images/myback.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+} */
 .logo{
    margin-left: 120px
 }
@@ -50,7 +61,8 @@ nav{
 }
 .hero{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-top: 200px;
 }
 .hero h1{
     font-size: 120px; 
@@ -58,17 +70,21 @@ nav{
     line-height: 100%;
     top: 220px;
     left: 337px;
+    height: 151px;
+    /* width: 684px; */
 
 }
 .hero p{
     word-spacing: 30px;
-    margin-top: -40px;
     font-weight: 700;
     font-size: 16px;
+    margin-top: -100px;
 }
 button{
     /* width: 162px;
     height: 44px; */
+    margin-top: 40px;
+    margin-bottom: 100px;
     padding: 15px;
     top: 419px;
     left: 639px;
@@ -94,7 +110,7 @@ h2 span{
 }
 .pros_container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
@@ -117,5 +133,156 @@ h2 span{
     font-size: 16px;
     font-weight: 400px;
     line-height: 24px;
+    font-style: italic;
 
+}
+.quotes{
+    background-color: #C271FF;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 392px;
+    left: -1px;
+}
+.quote{
+    display: flex;
+    margin-left: 200px;
+    /* gap: 40px; */
+    margin-top: 90px;
+
+}
+.quote img{
+    width: 160px;
+    height: 160px;
+    Top:1201px;
+    left: 259px;
+    border-radius: 50%;
+}
+.quote p{
+    margin-left : 40px;
+    margin-top: 20px;
+    line-height: 33.6p;
+    font-size: 22px;
+    font-style: italic;
+}
+.myname{
+    font-weight: 700;
+    font-size: 22px;
+    font-style: none;
+
+}
+blockquote{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33.6px; 
+    align-self: center;
+}
+.videolist{
+    background-color: white;
+    color: black;
+}
+.videolist h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+.videolist span{
+    color: #C271FF;
+}
+.container_video{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.videoItem{
+    width: 255px;
+    height: 335px;
+    top: 115px;
+    left: 59px;
+}
+.videoItem img{
+    width: 255px;
+    height: 154px;
+    border-radius: 10px;
+}
+
+.videoItem h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+}
+.videoItem p{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: gray;
+}
+.author_block img{
+   width: 30px;
+   height: 30px;
+   top: 216px;
+   left: 13px;
+   border-radius: 50%; 
+}
+.author_block h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px; 
+    color:#C271FF;    
+}
+.stars img{
+    width: 20px;
+    height: 20px;
+    top: 216px;
+    left: 13px;
+}
+.rating{
+    display: flex;
+    gap: 70px;   
+}
+.rating p{
+  margin-top: -1px;
+  margin-left: 20px;
+  color: #C271FF;
+}
+.membership{
+    background-color: #071629;
+    width:100%;
+    height: 502px;
+    /* text-align: center;
+    display: flex; */
+}
+.membership h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.membership span{
+    color: #C271FF;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.item{
+    width: 257px;
+    height: 153px;
+    text-align: center;
+}
+.item i{
+    font-size: 50px;
+    color: #C271FF;
+}
+.membership button{
+    margin-left: 600px;
+    margin-top: 50px;
 }
